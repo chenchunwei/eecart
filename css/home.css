@@ -1,0 +1,34 @@
+@charset "utf-8";
+.i-notice,.next,.prev{background:url(img/i.png) no-repeat;}
+.m-carousel{width: 570px;height: 260px;overflow: hidden;position: relative;margin-top:10px;float: left;}
+.u-dot{width: 100%; text-align: right;position:absolute; bottom:0; right:0; height:30px;z-index:2;}
+.u-dot a {float: left;display: inline-block; cursor:pointer;line-height:30px; text-align:center; font-size:12px;color: #fff; width:188px;border-left: 1px solid #7c756b;border-right: 1px solid #757575;cursor:pointer; overflow:hidden;background:rgba(0,0,0,0.5);filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#4c000000', EndColorStr='#4c000000');  transition:All .5s ease;}
+.u-dot a.active,.u-dot a.active { background:#0d548e; color: #fff;text-decoration: none;}
+.m-notice{border: 5px solid #f1f1f1;float: right;position: relative;width:143px;overflow: hidden;margin-top: 10px;}
+.m-notice .m-list{height: 162px;padding-bottom: 30px;}
+.m-notice .m-box-content{padding-left: 1px;}
+.m-notice-down{height: 30px;width: 100%;*width:161px;position: absolute;bottom:-1px;left:0;background: #dbe4e9;color: #e9f2f7;line-height: 30px;text-align: center; }
+.i-notice{position: absolute;left: 62px;top:8px;display: inline-block;width: 14px; height: 15px;background-position: 0 -142px;}
+/*m-ilist*/
+.m-ilist-box{padding: 0;margin-top: 10px;border: 0;}
+/*w*/
+.m-ilist-w li{width: 180px;padding-bottom: 25px;}
+.m-ilist-w strong,.m-ilist-w2 strong{display: block;width:100%;height:auto;overflow:hidden; padding:5px}
+.m-ilist-w p {position: absolute;z-index: 2;width: 138px;background: #fff;height: 20px;border: 1px solid #dcdcdc;padding:0 20px;overflow: hidden;}
+.m-ilist-w .i-arr {right: 17px;top:9px;}
+.m-ilist-w p.active{height: auto;}
+.f-tit{padding: 5px 0;border-bottom: 3px solid #1981b7;}
+.m-srcoll{border-bottom: 1px solid #ddd;margin-bottom: 10px;}
+/*w*/
+.m-ilist-w2{float: left;margin-left: 30px;}
+.m-ilist-w2 li{width: 122px;display: block;margin-right: 30px;padding-right:29px;border-right: 1px dashed #ddd;}
+.m-ilist-w2 strong{height: 40px;}
+.m-ilist-w2 .u-img{width: 110px;height: 110px;*font-size:90px;}
+.m-ilist-w2 .u-img img{max-width: 110px;max-height: 110px;}
+.next,.prev{display: block;width: 30px;height: 190px;float: left;border-left: 1px solid #ddd;border-right: 1px solid #ddd;cursor: pointer;opacity: .7;filter: alpha(opacity=70);}
+.next:hover,.prev:hover{opacity: .7;filter: alpha(opacity=70);}
+.prev{background-position: -56px -88px;}
+.next{margin-left: -5px;background-position: -78px -190px;}
+
+
+
