@@ -8,7 +8,7 @@
 .m-notice .m-list{height: 162px;padding-bottom: 30px;}
 .m-notice .m-box-content{padding-left: 1px;}
 .m-notice-down{height: 30px;width: 100%;*width:161px;position: absolute;bottom:-1px;left:0;background: #dbe4e9;color: #e9f2f7;line-height: 30px;text-align: center; }
-.i-notice{position: absolute;left: 62px;top:8px;display: inline-block;width: 14px; height: 15px;background-position: 0 -142px;}
+.i-notice{display: block;float: left;margin: 7px 0 0 3px;width: 14px; height:15px;background-position: 0 -142px;}
 /*m-ilist*/
 .m-ilist-box{padding: 0;margin-top: 10px;border: 0;}
 /*w*/

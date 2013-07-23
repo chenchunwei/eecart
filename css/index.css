@@ -72,10 +72,11 @@ a:hover,.ckey,.akey a{color: #1981b7;}
 /*aside nav*/
 .m-aside{display: block;padding:18px 9px 5px 9px;border: 1px solid #ddd;margin-bottom: 10px;}
 .m-aside li {position: relative;z-index: 100;height: 34px;border-bottom: 1px solid #ddd;background-position:200px -205px;*vertical-align: middle;}
-.m-aside .u-menu-name{color: #1981b7;line-height: 34px;font-size: 14px;padding-left: 5px;z-index: 2}
+.m-aside .u-menu-name{display: block;color: #1981b7;line-height: 34px;font-size: 14px;padding-left: 5px;z-index: 2}
 .m-aside .u-menu{display: none;position: absolute;left:219px;top:-1px;width:249px;padding: 10px 20px 10px 30px;border: 1px solid #1981b7;background: #fff;}
 .m-aside .u-menu dt{height: 25px;font-size: 14px;color: #ff9d29;font-weight: bold;}
 .m-aside li.u-menu-end{border: 0;}
+.m-aside .u-menu-name:hover{background: #f6f6f6;}
 /*status*/
 .m-aside li.active .u-menu-name{display: block;position: absolute;left:-10px;top:-1px;width: 224px;height: 34px;border: 1px solid #1981b7;border-right:0;}
 .m-aside li.active .u-menu-name,.m-aside li.active .u-menu-name:hover{color: #ff9d29;font-weight: bold;background: #fff;text-decoration: none;}
